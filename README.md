@@ -75,6 +75,10 @@ Audio-sync uses WASAPI loopback (via `pyaudiowpatch`) to capture system audio ou
 
 Built by reverse-engineering an undocumented WMI interface — it works reliably on the tested hardware but isn't officially supported by Lenovo. Use at your own discretion. No warranty.
 
+## Acknowledgments
+
+Developed by [Kartik](https://github.com/kartik-mlops) with AI-assisted development using **Claude** (Anthropic) — used for code generation, debugging (including tracking down a COM cross-thread bug and a WASAPI loopback API issue), and iterating on the design. All testing, hardware access, and final decisions were done by the author.
+
 ## License
 
 MIT
